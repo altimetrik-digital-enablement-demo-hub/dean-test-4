@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dean-test-4
+  description: A Java service scaffolded with Backstage
+  tags:
+    - springboot
+    - java
+    - maven
+  annotations:
+    github.com/project-slug: altimetrik-digital-enablement-demo-hub/dean-test-4
+    backstage.io/source-location: url:https://github.com/altimetrik-digital-enablement-demo-hub/dean-test-4
+    backstage.io/techdocs-ref: url:https://github.com/altimetrik-digital-enablement-demo-hub/dean-test-4/tree/main
+    devbox.io/enabled: "true"
+spec:
+  type: service
+  lifecycle: production
+  owner: altimetrik-digital-enablement-demo-hub
