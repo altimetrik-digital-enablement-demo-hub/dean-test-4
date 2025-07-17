@@ -3,5 +3,6 @@ site_name: My Spring Boot Service Docs
 nav:
   - Home: index.md
   - Architecture: architecture.md
+  - Developer Workflow: developer_workflow.md
 
 theme: readthedocs
