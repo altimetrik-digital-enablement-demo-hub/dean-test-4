@@ -40,7 +40,8 @@ jobs:
           role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
           aws-region: us-east-1
 
-      - uses: ./.github/actions/claude-pr-action
+      - name: Run Claude Code Action
+        uses: anthropics/claude-code-action@beta
         with:
           trigger_phrase: "@claude"
           timeout_minutes: "60"
